@@ -1,0 +1,8 @@
+title: Web developing coursera
+description: Repository for Coursera HTML, CSS, and Javascript for Web Developers
+google_analytics: 
+show_downloads: true
+theme: jekyll-theme-cayman
+
+gems:
+  - jekyll-mentions
