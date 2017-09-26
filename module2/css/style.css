@@ -2,34 +2,38 @@
 * {
     box-sizing: border-box;
     font-family: Helvetica;
+    font-size: 14px;
 }
 h1 {
     margin-bottom: 15px;
     text-align: center;
+    font-size: 1.75em;
 }
 
 p {
     clear: both;
+    padding: 5%;
 }
 
 .panel {
     width: 90%;
     margin-right: auto;
     margin-left: auto;
+    margin-bottom: 20px;
     position: relative;
     background-color: #999999;
-    border: 3px solid black;
-
+    border: 1px solid black;
 }
 
 div > .label {
     position: relative;
     float: right;
-    border-width: 0px 0px 2px 2px;
+    border-width: 0px 0px 1px 1px;
     border-style: solid;
     border-color: black;
     text-align: center;
-
+    font-size: 1.25em;
+    padding: 4px;
 }
 
 #chicken {
@@ -133,6 +137,9 @@ div > .label {
     }
     .col-md-12 {
         width: 100%;
+    }
+    #sushi-panel {
+        width: 95%;
     }
 }
 
